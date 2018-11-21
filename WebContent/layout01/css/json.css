@@ -1,0 +1,14 @@
+/*Json*/
+#blogList {width:80%; margin:20px auto;}
+.blog {width:32%; margin:3px; height:300px; overflow:hidden; float:left; background:#fff;border-radius:10px;}
+.blog:hover {background:#ccc;}
+.blog h4, p {margin:15px;}
+.blog h4 {color:#3fbbdd;}
+#json {width: 100%; margin:40px auto; background:#3fbbdd;}
+#json h2 {text-align:center;}
+
+.shop img {height:57%; padding:8% 17%;}
+.shop p {margin:0 15px; color:#000;}
+.shop p:last-child {font-size:13px; color:red;}
+.goods {border-top:2px solid red; font-size:15px; padding-top:8px;}
+.shop:hover {background:#fff;}

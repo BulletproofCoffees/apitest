@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+* {	padding: 0px; margin: 0px; }
+body { font-size: 12px;}
+li {
+	list-style: none;
+}
+/*전체 컨테이너 가운데정렬*/
+#uCon {
+	width: 1024px;
+	border-left: thick solid gold;
+	border-right: thick solid gold;
+	margin: 0 auto;
+}
+#uCon > li:nth-of-type(1) {border-bottom: thin solid gold;}
+
+#uCon > li { padding: 10px; }
+
+#dvNav > ul > li { display:inline-block; padding: 5px; border: thin dotted gold; }
+/* 링크의 밑줄 제거 */
+#dvNav a { text-decoration: none;}
+#dvNav > ul > li:hover { background-color: gold;}
+
+#dvNav { text-align: right; }
+/* === CONTENT*/
+.content > ul > li {
+	margin: 30px 0;
+}
+.content01 > ul {
+	margin: 0 auto;
+}
+.content01 > ul > li{
+	display: inline-block; padding: 3px;
+}
+.content01 > ul > li > img {
+	width: 180px; height: 180px;
+}
+#content02 > ul > li { display: inline-block; width: 45.5%; margin: 0 2%}
+.listtb {
+width: 100%;
+border-collapse: collapse;
+text-align: center;
+}
+
+.listtb  th {
+background-color: gray;
+color: white;
+}
+
+.listtb  td {
+border-bottom : 1px dotted gray;
+}
+.listtb tr:hover {
+	background-color: gold;
+}
+
+#content04 ul li {display: inline-block;}
+.buttons {
+	border-radius: 10px;
+	margin:9px;
+	width: 120px;
+	height: 120px;
+	background-color: gold; 
+	color: white;
+	cursor: pointer;
+	border: 0px;
+}
+.buttons:hover {
+	color: black;
+}
+
+.mail {
+	float: right;
+	border: 1px solid black;
+	padding: 0px; margin: 0px;	
+}
+.mail th {
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
+/* ==== 회원가입 폼 */
+.buttons2 {
+	background-color: gold;
+	border: 0px;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 5px;
+	width: 80px;
+}
+#join > li {
+	margin: 40px auto;
+	border-top: 1px dashed gold;
+}
+#join > li:first-of-type {
+	border-top: 0px;
+	margin: 0 auto;
+}
+#join > li:last-of-type {
+	border-top: 0px;
+	
+}
+.jointb {
+	margin-left: 10px;
+}
+.jointb td {
+	padding: 5px;
+}
+/* === BOTTOM*/
+#uCon > li:last-of-type { background-color: gold; color: red; }

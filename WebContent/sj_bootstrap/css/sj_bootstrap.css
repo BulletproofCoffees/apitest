@@ -1,0 +1,20 @@
+@charset "UTF-8";
+a{color: black;}
+header{	
+    padding-top: 20px;
+    padding-bottom: 20px;	
+	background: linear-gradient(45deg,#fbd0b6, #f4a9c5,#d5b2d5,#c1bbde,#9dcaee);  }
+
+
+.news{background-color:white;
+       margin: 40px;
+
+	
+}
+
+.color{ background-color:#9dcaee;}
+    
+ui { padding-left: 0px; }
+li { list-style: none; }
+
+.movie{color:#ffffff;}

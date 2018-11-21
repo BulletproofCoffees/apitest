@@ -1,0 +1,58 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.jsp</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath}/layout02/css/global.css" />
+</head>
+<body>
+	<ul id="uCon">
+		<!-- TOP -->
+		<li>
+			<!-- LOGO -->
+			<h1>GSS WEBSITE</h1> <!-- NAVI -->
+			<div id="dvNav">
+				<ul>
+					<li>[ <a
+						href="${pageContext.request.contextPath}/layout02/view/index.jsp">HOME</a>
+						]
+					</li>
+					<li>[ <a
+						href="${pageContext.request.contextPath}/layout02/view/ajaxget.jsp">AJAX GET</a>
+						]
+					</li>
+					<li>[ <a
+						href="${pageContext.request.contextPath}/layout02/view/ajaxgetsearch.jsp">AJAX GET SEARCH</a>
+						]
+					</li>
+
+				</ul>
+			</div>
+		</li>
+		<!-- MIDDLE -->
+		<li>
+			<ul id="ulMid">
+				<!-- SUB-NAVI -->
+				<li>
+					<h5>:: HOME ::</h5>
+					<ul id="ulSubnav">
+						<li>[ <a
+							href="${pageContext.request.contextPath}/layout02/view/sub01.jsp">SUB01</a>
+							]
+						</li>
+						<li>[ <a
+							href="${pageContext.request.contextPath}/layout02/view/sub01.jsp">SUB02</a>
+							]
+						</li>
+						<li>[ <a
+							href="${pageContext.request.contextPath}/layout02/view/sub01.jsp">SUB03</a>
+							]
+						</li>
+					</ul>
+				</li>
+	

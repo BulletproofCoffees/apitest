@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* 전체  */
+* { padding:0px; margin: 0px;}
+body { font-size: 12px;  }
+
+/* li의 * 없애기 */
+li { list-style: none; }
+
+/* === 전체 컨테이너 */
+/* 가운데 정렬 */
+#uCon { width:1024px; border-left: thin solid gold; border-right: thick red solid; margin: 0px auto; }
+/* 안쪽 여백 */
+#uCon > li { padding: 10px; }
+
+/* === TOP */
+#uCon > li:nth-of-type(1) { border-bottom: gold thin solid; }
+
+/* NAVIGATION */
+#dvNav > ul > li { display: inline-block; padding: 5px; border: thin dotted gold; }
+
+/* 링크처리 */
+#dvNav a { text-decoration: none; }
+#dvNav > ul > li:hover { background-color: gold; }
+
+/* 위치 */
+#dvNav { text-align: right; }
+
+/* === CONTENT */
+#ulCtn01 > li { display: inline-block; width:19.6%; text-align: center;}
+#ulCtn01 > li > img { width: 98%; height: 150px; border:thin solid green; }
+
+/* === BOTTOM */
+#uCon > li:nth-of-type(3) { background-color: gold; color: red; }
+
+
+
